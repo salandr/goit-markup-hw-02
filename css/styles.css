@@ -69,7 +69,6 @@ body {
 
 .header-contacts__link {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -85,7 +84,6 @@ body {
 
 .hero__title {
   color: var(--color-white);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -118,14 +116,12 @@ body {
 
 .company__text {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .works__title {
   color: var(--color-navy-blue);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -138,16 +134,11 @@ body {
 
 .team__title {
   color: var(--color-navy-blue);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.team__list {
-  background-color: var(--color-white);
 }
 
 .team__item {
@@ -164,7 +155,6 @@ body {
 
 .team__job-title {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -195,7 +185,6 @@ body {
 
 .footer__text {
   color: var(--color-cloud);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -229,7 +218,6 @@ body {
 
 .gallery__text {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

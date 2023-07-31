@@ -7,87 +7,87 @@
   --light: #f4f4fd;
 }
 
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo_text {
+  color: var(--text);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo_blue {
+  color: var(--primary-brand);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+
   color: #434455;
   background-color: var(--white);
 }
 
-.hero_image {
-  background-color: var(--dark);
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 60px;
-  color: var(--white);
-  text-align: center;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 36px;
+.menu_item_link {
   color: var(--dark);
-  text-align: center;
-}
-
-h3 {
-  font-weight: medium;
-  font-size: 20px;
-  color: var(--dark);
-}
-
-ul {
-  list-style-type: none;
-}
-
-a:link {
-  text-decoration: none;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
-  color: var(--primary-brand);
-}
-
-button {
-  font-weight: medium;
-  letter-spacing: 4%;
-  cursor: pointer;
-}
-
-.cta_btn {
-  background-color: var(--primary-brand);
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
+}
+
+.menu_item_link:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.menu_item_link:focus {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.contacts_list_item {
+  color: var(--dark);
+  font-style: normal;
+}
+.contacts-list-item:hover {
+  color: var(--hover-color);
+}
+
+.contacts_list_item:focus {
+  color: var(--hover-color);
+}
+
+.nav_button {
+  color: var(--logo-blue);
+  background: var(--button-background);
+  text-align: center;
+  font-family: Roboto;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
 }
 
-.cta_btn:hover,
-.cta_btn:focus {
-  background-color: #404bbf;
+.nav_button:hover {
+  color: var(--background-color);
+  background-color: var(--hover-color);
 }
 
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-}
-
-.team {
-  background-color: var(--light);
-}
-
-footer {
-  background-color: var(--dark);
-  color: var(--white);
+.pcards_h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }

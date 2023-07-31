@@ -2,46 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
   </head>
   <body>
-    <header class="portfolio_header">
-      <nav class="portfolio_nav">
-        <a class="logo_text link" href="./index.html">
-          <span class="logo_blue">Web</span>Studio</a
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-nav__logo-blue link" href="./index.html"
+          >Web<span class="header-nav__logo-black">Studio</span></a
         >
-
-        <ul class="list menu">
-          <li class="menu_item">
-            <a class="menu_item_link link" href="./index.html">Studio</a>
+        <ul class="header-nav__list list">
+          <li class="header-nav__item">
+            <a class="header-nav__link link" href="./index.html">Studio</a>
           </li>
-          <li class="menu_item">
-            <a class="menu_item_link link" href="./portfolio.html">Portfolio</a>
+          <li class="header-nav__item">
+            <a class="header-nav__link link" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
-          <li class="menu_item">
-            <a class="menu_item_link link" href="">Contacts</a>
+          <li class="header-nav__item">
+            <a class="header-nav__link link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-
-      <address class="portfolio_contacts">
-        <ul class="list contacts_list">
-          <li class="contacts_list_item">
-            <a class="contacts_list_item link" href="mailto:info@devstudio.com"
+      <address class="header-contacts">
+        <ul class="header-contacts__list list">
+          <li class="header-contacts__item">
+            <a
+              class="header-contacts__link link"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts_list_item">
-            <a class="contacts_list_item link" href="tel:+110001111111"
+          <li class="header-contacts__item">
+            <a class="header-contacts__link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -50,154 +51,149 @@
     </header>
 
     <main>
-      <section>
-        <ul class="list">
-          <li>
-            <button class="nav_button" type="button">All</button>
-          </li>
+      <section class="gallery">
+        <h1 class="hidden">Hidden</h1>
 
-          <li>
-            <button class="nav_button" type="button">Web Site</button>
+        <ul class="gallery-filter__list list">
+          <li class="gallery-filter__item">
+            <button class="gallery-filter__button" type="button">All</button>
           </li>
-
-          <li>
-            <button class="nav_button" type="button">App</button>
+          <li class="gallery-filter__item">
+            <button class="gallery-filter__button" type="button">
+              Web Site
+            </button>
           </li>
-
-          <li>
-            <button class="nav_button" type="button">Design</button>
+          <li class="gallery-filter__item">
+            <button class="gallery-filter__button" type="button">App</button>
           </li>
-
-          <li>
-            <button class="nav_button" type="button">Marketing</button>
+          <li class="gallery-filter__item">
+            <button class="gallery-filter__button" type="button">Design</button>
+          </li>
+          <li class="gallery-filter__item">
+            <button class="gallery-filter__button" type="button">
+              Marketing
+            </button>
           </li>
         </ul>
 
-        <ul class="cards list">
-          <li>
-            <a class="cards_link link" href="">
-              <img
+        <ul class="gallery__list list">
+          <li class="gallery__item">
+            <a class="gallery__link link"
+              ><img
+                class="gallery__image"
                 src="./images/portfolio1.jpg"
-                alt="banking app"
+                alt="Banking App Interface Concept"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Banking App Interface Concept</h3>
-              <p>App</p>
-            </a>
+              <h2 class="gallery__title">Banking App Interface Concept</h2>
+              <p class="gallery__text">App</p></a
+            >
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
+          <li class="gallery__item">
+            <a class="gallery__link link">
               <img
+                class="gallery__image"
                 src="./images/portfolio2.jpg"
-                alt="cashless payment"
+                alt="Cashless Payment"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Cashless Payment</h3>
-              <p>Marketing</p>
-            </a>
+              <h2 class="gallery__title">Cashless Payment</h2>
+              <p class="gallery__text">Marketing</p></a
+            >
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
-              <img
+          <li class="gallery__item">
+            <a class="gallery__link link"
+              ><img
+                class="gallery__image"
                 src="./images/portfolio3.jpg"
-                alt="meditation app"
+                alt="Meditation App"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Meditation App</h3>
-              <p>App</p>
-            </a>
+              <h2 class="gallery__title">Meditation App</h2>
+              <p class="gallery__text">App</p></a
+            >
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
-              <img
+          <li class="gallery__item">
+            <a class="gallery__link link"
+              ><img
+                class="gallery__image"
                 src="./images/portfolio4.jpg"
-                alt="taxi service"
+                alt="Taxi Service"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Taxi Service</h3>
-              <p>Marketing</p>
-            </a>
+              <h2 class="gallery__title">Taxi Service</h2>
+              <p class="gallery__text">Marketing</p></a
+            >
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
-              <img
+          <li class="gallery__item">
+            <a class="gallery__link link"
+              ><img
+                class="gallery__image"
                 src="./images/portfolio5.jpg"
-                alt="screen illustrations"
+                alt="Screen Illustrations"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Screen Illustrations</h3>
-              <p>Design</p>
-            </a>
+              <h2 class="gallery__title">Screen Illustrations</h2>
+              <p class="gallery__text">Design</p></a
+            >
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
+          <li class="gallery__item">
+            <a class="gallery__link link">
               <img
+                class="gallery__image"
                 src="./images/portfolio6.jpg"
-                alt="online courses"
+                alt="Online Courses"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Online Courses</h3>
-              <p>Marketing</p>
+              <h2 class="gallery__title">Online Courses</h2>
+              <p class="gallery__text">Marketing</p>
             </a>
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
+          <li class="gallery__item">
+            <a class="gallery__link link">
               <img
+                class="gallery__image"
                 src="./images/portfolio7.jpg"
-                alt="instagram stories"
+                alt="Instagram Stories Concept"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Instagram Stories Concept</h3>
-              <p>Design</p>
+              <h2 class="gallery__title">Instagram Stories Concept</h2>
+              <p class="gallery__text">Design</p>
             </a>
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
+          <li class="gallery__item">
+            <a class="gallery__link link">
               <img
+                class="gallery__image"
                 src="./images/portfolio8.jpg"
-                alt="food"
+                alt="Organic Food"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Organic Food</h3>
-              <p>Web Site</p>
+              <h2 class="gallery__title">Organic Food</h2>
+              <p class="gallery__text">Web Site</p>
             </a>
           </li>
-
-          <li>
-            <a class="cards_link link" href="">
-              <img
+          <li class="gallery__item">
+            <a class="gallery__link link"
+              ><img
+                class="gallery__image"
                 src="./images/portfolio9.jpg"
-                alt="coffee"
+                alt="Fresh Coffee"
                 width="360"
-                height="300"
               />
-              <h3 class="cards_h3">Fresh Coffee</h3>
-              <p>Web Site</p>
-            </a>
+              <h2 class="gallery__title">Fresh Coffee</h2>
+              <p class="gallery__text">Web Site</p></a
+            >
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo_text link" href="./index.html">
-        <span class="logo_blue">Web</span>Studio</a
+
+    <footer class="footer">
+      <a class="footer__logo-blue link" href="./index.html"
+        >Web<span class="footer__logo-white">Studio</span></a
       >
-      <p>
+      <p class="footer__text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
